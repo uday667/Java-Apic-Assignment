@@ -14,6 +14,9 @@ public class EventResponse {
     public EventResponse() {
     }
 
+    public EventResponse(long l, long l1, String userUpdated, String testuser, LocalDateTime now) {
+    }
+
     public void setId(Long id) {
         this.id = id;
     }

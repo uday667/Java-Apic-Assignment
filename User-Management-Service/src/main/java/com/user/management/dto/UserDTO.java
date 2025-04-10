@@ -15,6 +15,9 @@ public class UserDTO {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
+    public <E> UserDTO(long l, String testuser, String mail, Set<E> user) {
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
